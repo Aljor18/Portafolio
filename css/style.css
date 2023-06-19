@@ -1,0 +1,215 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,800&display=swap');
+
+:root{
+--color-textos:#606060;
+--color-negro:#000;
+--fondo-header:#f4f3f7;
+--color-menu:#121212;
+--color-menu-hover:#218fe6;
+--color-titulos:#303030;
+--color-azul:#218fe6;
+--fondo-gris:#f8f8f8;
+--color-letra-gris:#888;
+--color-subtitulo:#777;
+--fondo-footer-columns:#1b1b1b;
+--fondo-footer-copy:#151515;
+--color-footer:#797979;
+}
+
+@font-face {      
+
+}
+
+header {
+      background-color: #FFFFF1;
+}
+
+footer {
+      background-color: #054F0B;
+}
+
+.content {
+      padding: 20px;
+}
+
+h4 {
+	padding-top: 50px;
+}
+
+h1 {
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 100px;
+	font-family: "Brasika";      
+src: url("../font/BrasikaDisplay.ttf") format('truetype'); 
+}
+
+.title p {
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 25px;
+}
+
+h4 {
+	color: #FFFFFF;
+	font-family: "CrimsonText Bold";
+	text-underline-position: below;
+}
+
+p {
+	color: #FFFFFF;
+	font-family: "CrimsonText Bold";
+}
+
+footer{
+	padding: 40px;
+	color: #fff;
+}
+
+footer h4 {
+	padding-top: 40px;
+}
+
+footer i {
+	font-size: 40px;
+	color: #fff;
+}
+
+img {
+	padding-left: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 1080px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+	font-size: 20px;
+	padding: 70px;
+	font-weight: 700;
+}
+
+section {
+    padding: 50px;
+}
+
+section #acerca {
+    background-color: #f9f9f9;
+}
+
+section #servicios {
+    background-color: #eaeaea;
+}
+
+section #portafolio {
+    background-color: #f9f9f9;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+section #contacto {
+    background-color: #eaeaea;
+}
+
+form input,
+form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+header h1 {
+ color: #000000;
+ font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+
+#acerca h2 {
+	text-align: center;
+	font-size: 50px;
+}
+
+#acerca p {
+	text-align: justify;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+	color: #000000
+}
+
+#servicios h2 {
+	text-align: center;
+	font-size: 50px;
+}
+
+#servicios h3 {
+	font-size: 25px;
+}
+
+#servicios p {
+	text-align: justify;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+	color: #000000
+}
+
+#portafolio h2 {
+	text-align: center;
+	font-size: 50px;
+}
+
+#contacto h2 {
+	text-align: center;
+	font-size: 50px;
+}
+
+header img {
+	padding-bottom: 60px;
+}
